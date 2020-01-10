@@ -1,4 +1,4 @@
-public class NUM {
+public class NUM implements Comparable{
     int val;
     public NUM(int vval){
         vval = val;
@@ -29,6 +29,9 @@ public class NUM {
         }
     }
 
+    public int compareTo(Object other){
+        
+    }
 
 
 
