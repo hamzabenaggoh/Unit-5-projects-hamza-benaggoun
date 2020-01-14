@@ -18,7 +18,7 @@ public class Task implements Priority {
     }
 
     public void doTask(){
-        System.out.println("Doing task ...Working...")
+        System.out.println("Doing task ...Working...");
         isComplete = true;
         this.setPriority(-1);
     }

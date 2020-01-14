@@ -30,7 +30,8 @@ public class NUM implements Comparable{
     }
 
     public int compareTo(Object other){
-        
+        NUM otherNum = (NUM) other;
+        return this.getNUM() - otherNum.getNUM();
     }
 
 
